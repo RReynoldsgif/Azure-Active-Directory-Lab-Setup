@@ -44,5 +44,9 @@ Restarted the VM from the Azure Portal to apply DNS changes
 # 🌐 Step 3: Verify Connectivity
 Successfully pinged DC-1 from Client-1
 
-Verified DNS setting in ipconfig /all showing DC-1 as the DNS Server
-
+Virtual Network and Subnet Setup: Created CyberLab-VNet with subnet CyberLab-Subnet
+![Screenshot (20)](https://github.com/user-attachments/assets/7ebdef06-b5e9-466c-932f-10098d18d0a9)
+--
+DC-1 VM Created: Windows Server 2022 configured with static private IP.
+![Screenshot (22)](https://github.com/user-attachments/assets/ea4adf63-e4e5-4cda-8b09-04e2289887bd)
+--
