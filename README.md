@@ -50,3 +50,13 @@ Virtual Network and Subnet Setup: Created CyberLab-VNet with subnet CyberLab-Sub
 DC-1 VM Created: Windows Server 2022 configured with static private IP.
 ![Screenshot (22)](https://github.com/user-attachments/assets/ea4adf63-e4e5-4cda-8b09-04e2289887bd)
 --
+Disabled Windows Firewall: For testing purposes only.
+![Screenshot (2)](https://github.com/user-attachments/assets/5dafc2da-ac97-4e85-ad79-c519365b55f8)
+--
+Client-1 VM Created: Windows 10 configured on same subnet as DC-1.
+![Screenshot (23)](https://github.com/user-attachments/assets/98842e39-3d7a-4741-bb51-fcee51a5e016)
+--
+Client-1 DNS Configured: DNS server set to DC-1's private IP.
+![Screenshot (28)](https://github.com/user-attachments/assets/7b030510-ebe9-4f2d-8dc4-5bc3f58b84b6)
+--
+Ping Test Successful: Verified network connectivity from Client-1 to DC-1.
