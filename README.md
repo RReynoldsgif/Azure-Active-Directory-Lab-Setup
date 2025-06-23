@@ -59,4 +59,9 @@ Client-1 VM Created: Windows 10 configured on same subnet as DC-1.
 Client-1 DNS Configured: DNS server set to DC-1's private IP.
 ![Screenshot (28)](https://github.com/user-attachments/assets/7b030510-ebe9-4f2d-8dc4-5bc3f58b84b6)
 --
-Ping Test Successful: Verified network connectivity from Client-1 to DC-1.
+Ping Test Successful: Verified network connectivity from Client-1 to DC-1
+![Screenshot (3)](https://github.com/user-attachments/assets/1cb26a89-e227-4ec3-a28c-aed66039d985)
+--
+DNS Verified via ipconfig: Shows DC-1's IP as DNS server on Client-1.
+![Screenshot (4)](https://github.com/user-attachments/assets/4ce443f8-6228-4e9e-8800-ff3b912600a6)
+--
