@@ -25,7 +25,7 @@ Username: labuser
 Configured with DC-1 as its DNS server
 
 # 🛠️ Configuration Steps
-🏗️ Step 1: Setup Domain Controller (DC-1)
+# 🏗️ Step 1: Setup Domain Controller (DC-1)
 Created a VM named DC-1 in Azure using Windows Server 2022
 
 Disabled Windows Firewall for lab testing
@@ -34,14 +34,14 @@ Set NIC private IP to static
 
 Added to CyberLab-VNet
 
-👨‍💻 Step 2: Setup Client (Client-1)
+# 👨‍💻 Step 2: Setup Client (Client-1)
 Created a Windows 10 VM named Client-1 in the same VNet and region
 
 Configured Client-1's DNS to point to DC-1's private IP
 
 Restarted the VM from the Azure Portal to apply DNS changes
 
-🌐 Step 3: Verify Connectivity
+# 🌐 Step 3: Verify Connectivity
 Successfully pinged DC-1 from Client-1
 
 Verified DNS setting in ipconfig /all showing DC-1 as the DNS Server
